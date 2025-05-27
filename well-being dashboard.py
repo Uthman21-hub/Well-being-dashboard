@@ -12,7 +12,7 @@ st.sidebar.markdown("## 📎 Other Dashboards")
 st.sidebar.markdown("[🔗 Visit Bradford Crime Dashboard](https://bradford-dashboard-v6xope7ys6qw2pyqy62dtp.streamlit.app/)")
 
 # Load data
-CNS = pd.read_excel('//ueahome4/stussf1/wek24ehu/data/NTProfile/Desktop/data analytics/Cleaned-datacensus.xlsx')
+CNS = pd.read_excel('Cleaned-datacensus.xlsx')
 
 # Interpretation section
 st.markdown("### 🧠 Interpretation: Does Crime Rate Affect Well-being?")
